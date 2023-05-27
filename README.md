@@ -1,16 +1,11 @@
 # CR_imitation_learning
 Please note that each approach employed different dataset.
 
-1. Cluster Based Approach
+## Cluster Based Approach
+1. Data reduction: 190 elements
+2. K-means initialization
+3. EM clustering
+4. Sampling
+5. Smoothing: Savitzky-Golay filter
 
-a. Data reduction: 190 elements
-
-b. K-means initialization
-
-c. EM clustering
-
-d. Sampling
-
-e. Smoothing: Savitzky-Golay filter
-
-2. NN Based Approach
+## NN Based Approach
