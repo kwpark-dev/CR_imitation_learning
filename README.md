@@ -1,12 +1,12 @@
 # CR_imitation_learning
-Please note that each approach employed different dataset.
+A goal is to generate trajectories of an end effector. Please note that each approach employed a different dataset.
 
 ## Cluster Based Approach
 ### Sampling from the clusters of end effector trajectory
 1. Data reduction: 190 elements
 2. K-means initialization
 3. EM clustering
-4. Sampling
+4. Sample new trajectories using inverse map transform (CDF of GMM)
 5. Smoothing: Savitzky-Golay filter
 
 ## NN Based Approach
